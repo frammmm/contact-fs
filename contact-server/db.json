@@ -1,0 +1,62 @@
+{
+  "User": [
+    {
+      "id": "JRyBwl30W",
+      "email": "user@mail.com",
+      "salt": "765cf0e7f85853b729007b77160723fb",
+      "password_hash": "f29119d8aff5c15116ad271f64e6394e4a943e13",
+      "role_id": 1
+    },
+    {
+      "id": "FmOGGRAkk",
+      "email": "manager@mail.com",
+      "salt": "8c7508c11de2c3f35430696d0312ac32",
+      "password_hash": "c65ccf9d868c327d6cd8848854772f069016c17a",
+      "role_id": 2
+    },
+    {
+      "id": "udWcjnqDX",
+      "email": "manager23@mail.com",
+      "salt": "a9d6edb7388609d52b9d4b2ff6b3cda8",
+      "password_hash": "0f391dfeb15409faa19d11162ce96b2fa785b6c2",
+      "role_id": 1
+    },
+    {
+      "id": "KdNwplHtu",
+      "email": "",
+      "salt": "ba233841777f90744968d28b63b306f7",
+      "password_hash": "e6e8120771c059e4a057373ff73892ee6ba7d591",
+      "role_id": 1
+    }
+  ],
+  "Role": [
+    {
+      "id": 2,
+      "name": "manager"
+    },
+    {
+      "id": 1,
+      "name": "user"
+    }
+  ],
+  "Request": [
+    {
+      "id": "librMr0CY",
+      "header": "ckl123jlk12jl3j12kl3cjkl12jkl3cj12klj3ckl12jlk3cj12klj3",
+      "body": "asdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasd",
+      "timestamp": 1542306453167,
+      "complete": true,
+      "file_url": "uploads\\manager@mail.com_injmthd.txt",
+      "user_id": "FmOGGRAkk"
+    },
+    {
+      "id": "I0aynFQGI",
+      "header": "1231212312c111112c12c3123c123c123c123c",
+      "body": "c123cc212112312c3123c12c123c12c123c123c123c123123c",
+      "timestamp": 1542306471828,
+      "complete": false,
+      "file_url": "uploads\\user@mail.com_.babel.json",
+      "user_id": "JRyBwl30W"
+    }
+  ]
+}
