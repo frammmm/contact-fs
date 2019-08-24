@@ -15,6 +15,7 @@ export default abstract class DatabaseRepository<T extends BaseModel> implements
 
     public async add(entity: T): Promise<boolean> {
         try {
+            // @ts-ignore
             await this._database.read().get(this._contextName).push(entity).write();
 
             return true;
@@ -25,6 +26,7 @@ export default abstract class DatabaseRepository<T extends BaseModel> implements
     };
 
     public async findOne(id: string): Promise<any> {
+        // @ts-ignore
         return await this._database.read().get(this._contextName).find({ id }).value();
     };
 
@@ -32,7 +34,6 @@ export default abstract class DatabaseRepository<T extends BaseModel> implements
         return await this._database.read().get(this._contextName).value();
     }
 
-    //TODO: Implement this
     public async remove(id: string): Promise<boolean> {
         return false;
     };

@@ -8,6 +8,8 @@ import { BAD_REQUEST, CREATED, INTERNAL_SERVER_ERROR, NO_CONTENT } from "../help
 import { OperationResult } from "../helpers/OperationResult";
 import { requireParamsValidation } from "../helpers/ApiHelper";
 
+import User from "../models/User.model";
+
 export default class RequestController {
     private RequestRepository: IRequestRepository;
 
@@ -25,7 +27,7 @@ export default class RequestController {
         const header = req.body.header;
         const body = req.body.body;
         const filepath = req.file && req.file.path;
-        const user = req.user.id;
+        const user = (req.user as User).id;
 
         const errors = requireParamsValidation({ header, body, user });
 

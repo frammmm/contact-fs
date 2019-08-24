@@ -8,11 +8,13 @@ export default class extends DatabaseRepository<Request> implements IRequestRepo
     }
 
     async findLatestByUserId(id: string): Promise<any> {
+        // @ts-ignore
         return await this._database.read().get(this._contextName).find({ user_id: id }).value();
     }
 
     async markAsReaded(id: string): Promise<boolean> {
         try {
+            // @ts-ignore
             await this._database.read().get(this._contextName).find({ id }).assign({ complete: 1 }).write();
 
             return true;
