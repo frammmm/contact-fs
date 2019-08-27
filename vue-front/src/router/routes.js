@@ -37,5 +37,4 @@ export const routes = {
   }
 };
 
-//TODO: Replace this shit with reduce/something
 export const routesCollection = Object.values(routes);

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="header container">
-      <button class="btn btn-secondary" @click="handleExitButtonClick">Выйти</button>
-    </div>
-    <div class="router-view">
+    <header class="header container">
+      <button class="button is-light" @click="handleExitButtonClick">Выйти</button>
+    </header>
+    <section class="section">
       <router-view />
-    </div>
+    </section>
   </div>
 </template>
 <script>
@@ -21,10 +21,5 @@ export default {
 .header {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-.router-view {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 </style>
