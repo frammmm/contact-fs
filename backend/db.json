@@ -1,0 +1,255 @@
+{
+  "User": [
+    {
+      "id": "JRyBwl30W",
+      "email": "user@mail.com",
+      "salt": "765cf0e7f85853b729007b77160723fb",
+      "password_hash": "f29119d8aff5c15116ad271f64e6394e4a943e13",
+      "role_id": 1
+    },
+    {
+      "id": "FmOGGRAkk",
+      "email": "manager@mail.com",
+      "salt": "8c7508c11de2c3f35430696d0312ac32",
+      "password_hash": "c65ccf9d868c327d6cd8848854772f069016c17a",
+      "role_id": 2
+    },
+    {
+      "id": "udWcjnqDX",
+      "email": "manager23@mail.com",
+      "salt": "a9d6edb7388609d52b9d4b2ff6b3cda8",
+      "password_hash": "0f391dfeb15409faa19d11162ce96b2fa785b6c2",
+      "role_id": 1
+    },
+    {
+      "id": "KdNwplHtu",
+      "email": "",
+      "salt": "ba233841777f90744968d28b63b306f7",
+      "password_hash": "e6e8120771c059e4a057373ff73892ee6ba7d591",
+      "role_id": 1
+    },
+    {
+      "id": "5yejrVigH",
+      "email": "123@asd.dsa",
+      "salt": "5ccbe3d4029d30a771199f8c7e2ff471",
+      "password_hash": "10ae655e12ea05912c0bd85b1ed6d8ed9ee7b8dc",
+      "role_id": 1
+    },
+    {
+      "id": "AtOxUk5nu",
+      "email": "123@321.asd",
+      "salt": "cde14910d8582e01e1838c59b7cae66f",
+      "password_hash": "8e4b9655320a34ec1ce22523319ff26e27b64fef",
+      "role_id": 1
+    },
+    {
+      "id": "G-18OVi6O",
+      "email": "321@321.asd",
+      "salt": "f10b45c73e6681534b6440e261e9030d",
+      "password_hash": "3fd71ad02bce5a2a668b33528583089b67e22554",
+      "role_id": 1
+    },
+    {
+      "id": "KDRMUx9A_",
+      "email": "manager34@mail.com",
+      "salt": "1071c053573b9206595bf2947bfc52ff",
+      "password_hash": "8e809a0277b40c31688e09bdc400e67ff8ebacf5",
+      "role_id": 1
+    },
+    {
+      "id": "nyoPRU6gz",
+      "email": "manager321@mail.com",
+      "salt": "a01dded214879e7858378dd78066ca3b",
+      "password_hash": "6a5a0406a1ef0b80084c2ab3f4e716bd105e49d7",
+      "role_id": 1
+    },
+    {
+      "id": "7O9u4RFRA",
+      "email": "manager123@mail.com",
+      "salt": "c83e1843b2f6a125f2ba115059ffd640",
+      "password_hash": "e7ad3b9d7c81ff6e2fbd71371b3099d4188b751f",
+      "role_id": 1
+    },
+    {
+      "id": "a5E-MP7vb",
+      "email": "manager44@mail.com",
+      "salt": "86cbf4d63b0bae8b03ad514c31ae08bc",
+      "password_hash": "17e529bfa31f6cc47a288c99eabd4ac0cab485bd",
+      "role_id": 1
+    },
+    {
+      "id": "Mz8gV9DGV",
+      "email": "manager443@mail.com",
+      "salt": "c830774a434b181b6eb8f59abe8dd622",
+      "password_hash": "062e0e57451bed22fe6f309792ef8c1f5ab8a031",
+      "role_id": 1
+    },
+    {
+      "id": "WlVQk1XTf",
+      "email": "manager55@mail.com",
+      "salt": "4d9817533e4b7f9b1af21028ef45ac67",
+      "password_hash": "c01c90d03d9d0565487e8e73b2859015ce171e58",
+      "role_id": 1
+    },
+    {
+      "id": "tX7GunnOm",
+      "email": "manager555@mail.com",
+      "salt": "ff60d72aa96482ebb047c5dff83d106d",
+      "password_hash": "d0858a10a4cececf25310c7ce545fd566220a60e",
+      "role_id": 1
+    },
+    {
+      "id": "Se8SjQ44F",
+      "email": "manager234@mail.com",
+      "salt": "9e2518a6acc5ecb414a940f8f1ca25b2",
+      "password_hash": "82f32ec21e21af16443bdd412162c2c7ef70be89",
+      "role_id": 1
+    },
+    {
+      "id": "zqJYRe_2u",
+      "email": "manager532@mail.com",
+      "salt": "bafcd7cdea57f9dc5db2424b67ca9160",
+      "password_hash": "eb2e37f327d7437c1acfe20e149488267ca2dde4",
+      "role_id": 1
+    },
+    {
+      "id": "2qXqQi27X",
+      "email": "manager6346@mail.com",
+      "salt": "387a4e1cbdeab55864b8a0fee47be512",
+      "password_hash": "0b7bb856f7923e95adee8932f40b2675a8c69e31",
+      "role_id": 1
+    },
+    {
+      "id": "aiLdSA0eb",
+      "email": "manager5235@mail.com",
+      "salt": "b1ed10fe6958d445977efbeb536cfa53",
+      "password_hash": "572ef7f2d7e3ac693b53f54950653a6019178a0b",
+      "role_id": 1
+    },
+    {
+      "id": "vPEQQZfFd",
+      "email": "manager1233@mail.com",
+      "salt": "0e574b40172b5f4f843a62a0e5c9032a",
+      "password_hash": "d8958c76327f20f1c158e9ffe2a9329f4af26d4a",
+      "role_id": 1
+    },
+    {
+      "id": "Qwv9-tOnX",
+      "email": "manage333r@mail.com",
+      "salt": "610999c345f9292593651b1bdc74ac89",
+      "password_hash": "a1479219f1d21c59fe818f161305fd61484aea63",
+      "role_id": 1
+    },
+    {
+      "id": "ghrRdslj2",
+      "email": "manage3333r@mail.com",
+      "salt": "3a371f765a34e10a53b48725fdc5bbe5",
+      "password_hash": "0ba0b84f3eb2b3b2e0df4ebc0113c232d54c3542",
+      "role_id": 1
+    },
+    {
+      "id": "z2gsTHFaJ",
+      "email": "manager332@mail.com",
+      "salt": "4ce87e14ec00fe84901ad8ed569e3f96",
+      "password_hash": "a15a83f428a4c143406d7e472eae31fde8bdba56",
+      "role_id": 1
+    },
+    {
+      "id": "z6Y37Lpn1",
+      "email": "manager55555@mail.com",
+      "salt": "d84faf50fe00262393372623c5b10c2d",
+      "password_hash": "372fbc5b68cce58f252ce624674b87d40ef24db3",
+      "role_id": 1
+    },
+    {
+      "id": "ROSvyl01H",
+      "email": "manager525555@mail.com",
+      "salt": "f605becdf79d84c4fdea34409cd3eadf",
+      "password_hash": "0279ba182b62a9a4bf1c0b6160a6e458eca71aca",
+      "role_id": 1
+    },
+    {
+      "id": "vh7W4DMxL",
+      "email": "manager5225555@mail.com",
+      "salt": "543f07b39e5484006f9ab99ec4e15473",
+      "password_hash": "a906f40d24eb374a3cc1f0f98c0ba2f5b701fc37",
+      "role_id": 1
+    },
+    {
+      "id": "GfKFalpUg",
+      "email": "manager3231@mail.com",
+      "salt": "38c050b24ef5717f29edeed298de76e9",
+      "password_hash": "8b90497d7e82ab017ae7cc7908fb4cf43a988352",
+      "role_id": 1
+    },
+    {
+      "id": "qEO0uQ8LI",
+      "email": "manager@mail.comasd",
+      "salt": "cbdbdaca985b43ff13f2e6c3dde3498d",
+      "password_hash": "6e8fbb8c8286ec17f1d3ca1d515bb7a0e01ab47e",
+      "role_id": 1
+    },
+    {
+      "id": "YoZZ3MYuF",
+      "email": "manager6666@mail.com",
+      "salt": "5c77d5f6b2350819ef9f574135268a8d",
+      "password_hash": "43336107779aa95ca5423ffa4f7b2785166c0cac",
+      "role_id": 1
+    }
+  ],
+  "Role": [
+    {
+      "id": 2,
+      "name": "manager"
+    },
+    {
+      "id": 1,
+      "name": "user"
+    }
+  ],
+  "Request": [
+    {
+      "id": "librMr0CY",
+      "header": "ckl123jlk12jl3j12kl3cjkl12jkl3cj12klj3ckl12jlk3cj12klj3",
+      "body": "asdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasdasdcadsasdcasdcasd",
+      "timestamp": 1542306453167,
+      "complete": true,
+      "file_url": "uploads\\manager@mail.com_injmthd.txt",
+      "user_id": "FmOGGRAkk"
+    },
+    {
+      "id": "I0aynFQGI",
+      "header": "1231212312c111112c12c3123c123c123c123c",
+      "body": "c123cc212112312c3123c12c123c12c123c123c123c123123c",
+      "timestamp": 1542306471828,
+      "complete": 1,
+      "file_url": "uploads\\user@mail.com_.babel.json",
+      "user_id": "JRyBwl30W"
+    },
+    {
+      "id": "Qbla-cJzi",
+      "header": "Hi!",
+      "body": "Hello",
+      "timestamp": 1566847124198,
+      "complete": false,
+      "file_url": "uploads\\manager3231@mail.com_cports.bin",
+      "user_id": "GfKFalpUg"
+    },
+    {
+      "id": "iDDzuq9t2",
+      "header": "12c312c312c31",
+      "body": "2c3123c123c",
+      "timestamp": 1566847883615,
+      "complete": 1,
+      "user_id": "qEO0uQ8LI"
+    },
+    {
+      "id": "aRNHP0Lwe",
+      "header": "ddddddddddddddddddddd",
+      "body": "asdasdasd",
+      "timestamp": 1566927487902,
+      "complete": 1,
+      "user_id": "YoZZ3MYuF"
+    }
+  ]
+}
