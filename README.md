@@ -1,25 +1,24 @@
-# Тестовое задание
+# Тестовый проект
 
 ## Запуск
 ```
- – git clone https://frammmm@bitbucket.org/frammmm/contact-test.git
+git clone https://frammmm@bitbucket.org/frammmm/contact-test.git
 ```
 ### Запуск сервера
 ```
- - cd contact-test\contact-server
- - yarn
- - yarn start
+cd backend
+yarn
+yarn start
 ```
 
-### Запуск фронтенда
+### Запуск Vue-фронтенда
 ```
- – cd contact-test\contact-front
- – yarn
- – yarn start
+cd vue-front
+yarn
+yarn start
 ```
 
 #### Данные для входа менеджера
 ```
- - login: manager@mail.com
- - password: 123
+manager@mail.com:123
 ```
