@@ -68,6 +68,8 @@
   };
 </script>
 <style scoped>
+
+
   .requests .request:not(:last-child) {
     margin-bottom: 12px;
   }
