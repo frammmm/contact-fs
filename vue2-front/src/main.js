@@ -1,5 +1,7 @@
 import Vue from 'vue';
 
+import App from './app';
+
 import router from './router';
 import store from './store';
 
@@ -11,6 +13,6 @@ store.dispatch('checkUserToken', userToken).then(() => {
     el: '#app',
     router,
     store,
-    template: '<router-view />',
+    render: h => h(App),
   });
 });
