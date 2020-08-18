@@ -1,4 +1,5 @@
 import express, { Router } from "express";
+import expressGraphQL from 'express-graphql';
 
 import { NOT_FOUND } from "../helpers/constants/httpCodes";
 import { requireAuthJwt } from "../helpers/middlewares/passport";
@@ -6,10 +7,17 @@ import { requireAuthJwt } from "../helpers/middlewares/passport";
 import UserRoute from "./User.route";
 import RequestRoute from "./Request.route";
 
+import schema from '../graphql';
+
 const router = Router();
 
 
-router.all("/api/*", requireAuthJwt);
+// router.all("/api/*", requireAuthJwt);
+
+router.use("/api/graphql", expressGraphQL({
+  graphiql: true,
+  schema,
+}));
 
 router.use("/api/uploads", express.static("uploads"));
 router.use("/api/", RequestRoute);

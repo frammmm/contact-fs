@@ -1,9 +1,18 @@
 import shortid from "shortid";
 
-import BaseModel from "./base/BaseModel";
+import BaseModel, { IBaseModel } from "./base/BaseModel";
+
 import { encryptPassword, generateSalt } from "../helpers/User.helper";
 
-export default class User extends BaseModel {
+
+export interface IUser extends IBaseModel {
+  email: string;
+  password_hash: string;
+  salt?: string;
+  role_id?: number;
+}
+
+export default class User extends BaseModel implements IUser {
   public email: string;
   public password_hash: string;
   public salt?: string;

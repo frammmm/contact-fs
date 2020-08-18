@@ -1,8 +1,18 @@
 import shortid from "shortid";
 
-import BaseModel from "./base/BaseModel";
+import BaseModel, { IBaseModel } from "./base/BaseModel";
 
-export default class Request extends BaseModel {
+
+export interface IRequest extends IBaseModel {
+  header: string;
+  body: string;
+  timestamp: number;
+  complete: boolean;
+  file_url: string;
+  user_id: string;
+}
+
+export default class Request extends BaseModel implements IRequest {
   public header: string;
   public body: string;
   public user_id: string;
